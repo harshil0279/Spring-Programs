@@ -1,0 +1,17 @@
+package com.bridgelab.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AnnotationBeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		
+	//load spring config file
+		ClassPathXmlApplicationContext context = new 
+				ClassPathXmlApplicationContex("applicationContext.xml");
+		
+		//retrive bean from spring container
+	
+	}
+
+}

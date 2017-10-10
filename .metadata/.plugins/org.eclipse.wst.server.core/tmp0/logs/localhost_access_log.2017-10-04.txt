@@ -1,0 +1,14 @@
+127.0.0.1 - - [04/Oct/2017:11:15:39 +0530] "GET / HTTP/1.1" 404 1070
+127.0.0.1 - - [04/Oct/2017:11:15:41 +0530] "GET /WebRestController/ HTTP/1.1" 200 52
+127.0.0.1 - - [04/Oct/2017:11:15:41 +0530] "GET /favicon.ico HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:16:12 +0530] "GET /WebRestController/user HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:18:21 +0530] "GET /WebRestController/user HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:19:46 +0530] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:19:46 +0530] "GET /favicon.ico HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:20:19 +0530] "GET /WebRestController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:20:19 +0530] "GET /WebRestController/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:20:38 +0530] "GET /WebRestController/user HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:22:57 +0530] "GET /WebRestController/user HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:33:25 +0530] "GET /WebRestController/user HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:34:47 +0530] "GET /WebRestController/user HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [04/Oct/2017:11:38:32 +0530] "GET /WebRestController/user HTTP/1.1" 404 1092

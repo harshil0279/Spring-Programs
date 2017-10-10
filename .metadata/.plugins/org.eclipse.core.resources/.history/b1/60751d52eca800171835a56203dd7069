@@ -1,0 +1,10 @@
+package com.bridgelab.springDemo;
+
+public class MyApp {
+	
+	public static void main(String[] args)
+	{
+		BaseballCoach thecoach = new BaseballCoach();
+	}
+
+}

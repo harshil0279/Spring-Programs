@@ -1,0 +1,19 @@
+package com.bridgelab.springDemo;
+
+public class HelloSpringApp
+{
+
+	public static void main(String[] args) 
+	{
+		//load the spring configuration file
+		ClassPathXmlApplicationContext context
+		        = new ClassPathXmlApplicationContext("applicationContext.xml");
+		//retrive the bean from spring container
+		
+		//call methods on bean
+		
+		//close the context
+
+	}
+
+}

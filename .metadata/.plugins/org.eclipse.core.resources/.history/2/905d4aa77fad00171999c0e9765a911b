@@ -1,0 +1,8 @@
+package com.bridgelab.springdemo;
+
+
+@Configuration
+@ComponentScan("com.bridgelab.springdemo")
+public class SportConfig {
+
+}

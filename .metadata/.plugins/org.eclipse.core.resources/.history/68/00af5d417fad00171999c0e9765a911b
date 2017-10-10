@@ -1,0 +1,9 @@
+package com.bridgelab.springDemo;
+
+
+@Configuration
+public class SportConfig 
+{
+	
+
+}

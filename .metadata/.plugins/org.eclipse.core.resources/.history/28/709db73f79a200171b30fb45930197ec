@@ -1,0 +1,5 @@
+package com.bridgelab.spring;
+
+public interface HelloWorld {
+
+}

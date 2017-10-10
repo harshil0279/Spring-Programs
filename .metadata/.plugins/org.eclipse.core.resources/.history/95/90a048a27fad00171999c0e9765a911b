@@ -1,0 +1,5 @@
+package com.bridgelab.springdemo;
+
+public class SportConfig {
+
+}

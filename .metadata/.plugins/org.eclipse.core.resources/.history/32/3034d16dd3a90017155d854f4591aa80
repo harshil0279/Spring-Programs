@@ -1,0 +1,36 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xmlns:p="http://www.springframework.org/schema/p"
+	 xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+				   
+                   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                   http://www.springframework.org/schema/context
+                    http://www.springframework.org/schema/context/spring-context.xsd">
+                   
+                  
+	<!-- load the properties -->
+	<context:property-placeholder location="classpath:sport.properties" />
+	<!-- Define your bean here -->
+	<!-- Define the dependency -->
+
+	<bean id="myFortune" class="com.bridgelab.springDemo.HappyFortuneService">
+
+	</bean>
+	<bean id="myCoach" class="com.bridgelab.springDemo.TrackCoach">
+		<!--set up the constroctor injection -->
+		<constructor-arg ref="myFortune" />
+	</bean>
+
+	<bean id="myCricketCoach" class="com.bridgelab.springDemo.CricketCoach">
+
+
+		<!-- set up setter imjedction -->
+		<property name="fortuneService" ref="myFortune" />
+		<!-- inject literal values -->
+
+		<property name="emailAddress" value="${foo.email}" />
+		<property name="team" value="${foo.team}" />
+	</bean>
+
+</beans>  
