@@ -1,5 +1,0 @@
-package com.bridgelab.springdemo;
-
-public interface Coach {
-
-}
